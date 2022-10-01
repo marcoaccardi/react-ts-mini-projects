@@ -1,7 +1,18 @@
 import React, { useEffect, useState } from "react";
+import { Review } from "./components/Review";
 
 function App() {
-  return <div></div>;
+  return (
+    <main>
+      <section className='container'>
+        <div className='title'>
+          <h2>Our review</h2>
+          <div className='underline'></div>
+        </div>
+        <Review />
+      </section>
+    </main>
+  );
 }
 
 export default App;
