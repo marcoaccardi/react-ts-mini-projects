@@ -3,5 +3,5 @@ import React from "react";
 interface LoadingProps {}
 
 export const Loading: React.FC<LoadingProps> = ({}) => {
-  return <div>Loading</div>;
+  return <h1>Loading...</h1>;
 };
